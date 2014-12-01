@@ -173,6 +173,8 @@ require 'faker/time'
 require 'faker/number'
 require 'faker/hacker'
 require 'faker/app'
+require 'faker/event'
+require 'faker/device'
 
 require 'extensions/array'
 require 'extensions/symbol'

@@ -153,3 +153,15 @@ en:
       author:
         - "#{Name.name}"
         - "#{Company.name}"
+
+    event:
+      login: ['facebook_login', 'login']
+      logout: ['facebook_logout', 'logout']
+      name: ['buy_product', 'item_view', 'store_view', 'friends_view', 'invite_friend']
+
+    device:
+      carrier: ['Vodafone', 'EE', 'O2', '3', 'MEO', 'NOS', 'Verizon', 'AT&T', 'Sprint', 'T-Mobile']
+      internet_connectivity: ['Wireless', 'Cellular']
+      push_token: ['######################################################################################################################################################', '##############-#####################################',]
+      screen_size: ['1280x800', '1024x600', '1024x768' , '1024x768', '960x640', '768x1024', '960x640', '480x800', '1280x720']
+      vendor: ['Apple', 'Samsung', 'HTC', 'HP', 'Acer', 'Asus']
