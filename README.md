@@ -22,6 +22,32 @@ Faker::Name.name      #=> "Christophe Bartell"
 Faker::Internet.email #=> "kirsten.greenholt@corkeryfisher.info"
 ```
 
+###Faker::Device
+-----------------
+
+```ruby
+Faker::Device.carrier #=> "AT&T"
+
+Faker::Devicet.internet_connectivity #=> "Cellular"
+
+Faker::Device.screen_size #=> "1024x600"
+
+Faker::Device.vendor #=> "HTC"
+```
+
+###Faker::Event
+-----------------
+
+```ruby
+Faker::Event.login #=> "facebook_login"
+
+Faker::Event.logout #=> "logout"
+
+Faker::Event.name #=> "buy_product"
+```
+
+
+
 ###Faker::Address
 -----------------
 
