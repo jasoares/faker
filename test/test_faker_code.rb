@@ -5,6 +5,10 @@ class TestFakerCode < Test::Unit::TestCase
     @tester = Faker::Code
   end
 
+  def test_npi_regexp
+    assert @tester.npi.match(/[0-9]{10}/)
+  end
+
   def test_default_isbn_regexp
     assert @tester.isbn.match(/^\d{9}-[\d|X]$/)
   end
@@ -23,5 +27,9 @@ class TestFakerCode < Test::Unit::TestCase
 
   def test_rut
     assert @tester.rut.match(/^\d{1,8}-(\d|k)$/)
+  end
+
+  def test_nric
+    assert @tester.nric.match(/^(S|T)\d{7}[A-JZ]$/)
   end
 end
