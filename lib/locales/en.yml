@@ -174,7 +174,7 @@ en:
     event:
       login: ['facebook_login', 'login']
       logout: ['facebook_logout', 'logout']
-      name: ['buy_product', 'item_view', 'store_view', 'friends_view', 'invite_friend']
+      name: ['buy_product', 'item_view', 'store_view', 'friends_view', 'invite_friend', 'app_crash', 'like_item']
 
     device:
       carrier: ['Vodafone', 'EE', 'O2', '3', 'MEO', 'NOS', 'Verizon', 'AT&T', 'Sprint', 'T-Mobile']
